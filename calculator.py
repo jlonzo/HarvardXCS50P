@@ -4,8 +4,21 @@
 # print(z)
 
 #Nested Function Calls
-x = int(input("What's x? "))
-y = int(input("What's y? "))
+x = float(input("What's x? "))
+y = float(input("What's y? "))
 
-print(x+y)
+#Rounding numbers
+#z = round(x+y)
 
+#Formatting numbers (Commas-sepparated number)
+#print(f"{z:,}")
+
+#Divisions
+#z = round(x/y,2)
+
+#Another way of round numbers
+z = x/y
+print(f"{z:.2f}")
+
+
+#rint(z)
