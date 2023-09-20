@@ -1,11 +1,12 @@
 #Declaring main body of the program
 def main(): 
-    name = input("Whats your name? ")    
-    hello(name)    
+    name = input("Whats your name? ")
+    hello(name)
 
 #Function with Default parameter
 def hello(to="World!"):
     print("Hello,", to)
+
 
 #print(name)
 

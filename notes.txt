@@ -1,0 +1,2 @@
+Submit code via submit50 (https://cs50.readthedocs.io/submit50/) or, 
+if comfortable with git, by pushing to https://github.com/me50/jlonzo.git. 
