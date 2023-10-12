@@ -27,8 +27,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "cp /workspaces/HarvardXCS50P/.devcontainer/settings.json ~/.vscode-remote/data/Machine/settings.json"
-	"postCreateCommand": "pwd"
+	"postCreateCommand": "cp /workspaces/HarvardXCS50P/.devcontainer/settings.json ~/.vscode-remote/data/Machine/settings.json"
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
