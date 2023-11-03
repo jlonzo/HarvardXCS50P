@@ -1,10 +1,11 @@
 def main():
     file = input("Filename: ").strip()
     if file.rfind(".") > 0:
-        fname,ext = file.split('.')
+        #fname,ext = file.split('.')
+        ext = file[file.rfind(".")+1:]
     else:
         ext=""
-    eval_filetype(ext.lower())    
+    eval_filetype(ext.lower())
 
 def eval_filetype(f):
     match f:
@@ -15,7 +16,7 @@ def eval_filetype(f):
         case "txt":
             print ("text/plain")
         case "pdf" | "zip":
-            print("applcation/",f,sep='')
+            print("application/",f,sep='')
         case _:
             print("application/octet-stream")
 

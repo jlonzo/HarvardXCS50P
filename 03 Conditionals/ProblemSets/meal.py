@@ -13,4 +13,5 @@ def convert(t):
     ft = float(h) + round((float(m)/60),2)
     return ft
 
-main()
+if __name__ == "__main__":
+    main()

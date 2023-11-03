@@ -1,6 +1,6 @@
 def main():
-    greeting = input("Greetin: ")
-    loan_amount(greeting)
+    greeting = input("Greeting: ")
+    loan_amount(greeting.strip())
 
 def loan_amount(val):
     if(val[0:5].upper() == "HELLO"):
@@ -10,4 +10,4 @@ def loan_amount(val):
     else:
         print("$100")
 
-main()    
+main()

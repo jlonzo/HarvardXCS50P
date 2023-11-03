@@ -1,10 +1,7 @@
 def main():
     ex = input("Expression: ").strip()
-    x,op,y = ex.split(" ")
-    # print(x)
-    # print(op)
-    # print(y)
-    print(eval_op(float(x),float(y),op))
+    x,y,z = ex.split(" ")
+    print(round(eval_op(float(x),float(z),y),2))
 
 def eval_op(a,b,o):
     match o:
@@ -15,6 +12,7 @@ def eval_op(a,b,o):
         case "*":
             return(a*b)
         case "/":
-            return (a/b)
+            if b  != 0:
+                return (a/b)
 
 main()
