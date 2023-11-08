@@ -1,6 +1,7 @@
 def main():
     MyVar = str(input("camelCase: "))
-    print("snake_case: " + toSnake(MyVar) )
+    #print("snake_case: " + toSnake(MyVar))
+    print(toSnake(MyVar))
 
 def toSnake(v):
     i, f, snake = 0,0,""
@@ -11,6 +12,6 @@ def toSnake(v):
         i += 1
 
     snake += v[f:i]
-    return snake
+    return snake.lower()
 
 main()

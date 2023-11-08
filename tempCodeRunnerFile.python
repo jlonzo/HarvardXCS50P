@@ -1,0 +1,6 @@
+score = int(input("Input: "))
+    
+if score < 2:
+    print("False")
+if score > 6:
+    print("False")
